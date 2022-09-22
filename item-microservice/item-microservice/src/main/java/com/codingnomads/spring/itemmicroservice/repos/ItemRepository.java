@@ -15,5 +15,4 @@ public interface ItemRepository extends JpaRepository<Item, Long> {
 
     Item findByName(String name);
 
-    List<Item> findAllItems();
 }

@@ -15,7 +15,7 @@ public class ItemService {
     @Autowired
     ItemRepository itemRepository;
 
-    public List<Item> getAllItems(){return itemRepository.findAllItems();}
+    public List<Item> getAllItems(){return itemRepository.findAll();}
 
     public Item getItemById(Long id) {
         Optional<Item> optional;
